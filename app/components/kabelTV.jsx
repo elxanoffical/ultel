@@ -46,7 +46,7 @@ export default function KabelTV() {
           return (
             <div
               key={idx}
-              className="bg-white rounded-xl shadow-md hover:shadow-lg transition-all p-6 text-left"
+              className="bg-white rounded-xl cursor-pointer shadow-lg hover:scale-95 duration-300 hover:shadow-lg transition-all p-6 text-left"
             >
               <h3 className="text-xl font-semibold mb-2">{pkg.title}</h3>
               <h4 className="text-5xl font-bold text-[#111827] mb-1">
@@ -60,7 +60,7 @@ export default function KabelTV() {
               </ul>
 
               <button
-                className={`${buttonColor} text-white font-semibold w-full py-2 rounded-lg transition`}
+                className={`${buttonColor} text-white cursor-pointer font-semibold w-full py-2 rounded-lg transition`}
               >
                 Qoşul • {finalPrice} AZN / hər ay
               </button>

@@ -18,7 +18,7 @@ export default function ADSL() {
         {packages.map((pkg, index) => (
           <div
             key={index}
-            className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all p-6 text-left"
+            className="bg-white rounded-xl cursor-pointer shadow-lg hover:scale-95 transition-all duration-300 hover:shadow-xl p-6 text-left"
           >
             <h3 className="text-3xl sm:text-4xl font-bold mb-4 text-[#111827]">
               {pkg.speed}
@@ -28,7 +28,7 @@ export default function ADSL() {
               <li className="flex items-center gap-2">✅ ADSL bağlantısı</li>
               <li className="flex items-center gap-2">✅ Wi-Fi ruter PULSUZ</li>
             </ul>
-            <button className="bg-[#5d5fef] hover:bg-[#4c4fd4] text-white w-full py-2 rounded-lg font-semibold transition">
+            <button className="bg-[#5d5fef] hover:bg-[#4c4fd4] cursor-pointer text-white w-full py-2 rounded-lg font-semibold transition">
               Qoşul • {pkg.price} AZN / hər ay
             </button>
           </div>

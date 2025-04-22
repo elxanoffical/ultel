@@ -39,7 +39,7 @@ export default function Fiber() {
           return (
             <div
               key={index}
-              className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all p-6 text-left"
+              className="bg-white rounded-xl cursor-pointer shadow-lg hover:scale-95 transition-all duration-300 hover:shadow-xl p-6 text-left"
             >
               <h3 className="text-3xl sm:text-4xl font-bold text-[#111827] mb-2">
                 {item.speed}
@@ -50,7 +50,7 @@ export default function Fiber() {
                 <li className="flex items-center gap-2">✅ Wi-Fi ruter PULSUZ</li>
               </ul>
               <button
-                className={`${buttonColor} text-white font-semibold w-full py-2 rounded-lg transition`}
+                className={`${buttonColor} text-white cursor-pointer font-semibold w-full py-2 rounded-lg transition`}
               >
                 Qoşul • {finalPrice} AZN / hər ay
               </button>

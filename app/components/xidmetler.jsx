@@ -25,7 +25,7 @@ export default function Xidmetler() {
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
-              className={`whitespace-nowrap px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 min-w-[150px] ${
+              className={`whitespace-nowrap px-4 py-2 text-sm cursor-pointer font-medium rounded-full transition-all duration-300 min-w-[150px] ${
                 activeTab === tab.id
                   ? "bg-white text-black shadow-sm"
                   : "text-gray-500 hover:text-gray-700"

@@ -29,12 +29,12 @@ export default function Telefon() {
 
       {/* Kart */}
       <div className="max-w-sm mx-auto">
-        <div className="bg-white flex justify-center items-center gap-6 flex-col rounded-xl shadow-md hover:shadow-lg transition-all p-10 text-center">
+        <div className="bg-white cursor-pointer shadow-lg hover:scale-95 duration-300 flex justify-center items-center gap-6 flex-col rounded-xl hover:shadow-lg transition-all p-10 text-center">
           <div className="text-6xl font-bold text-[#111827] mb-4">
             {price}
             <span className="text-2xl font-medium ml-1">AZN</span>
           </div>
-          <button className="bg-[#5d5fef] hover:bg-[#4c4fd4] text-white font-semibold text-lg w-full py-3 rounded-lg transition">
+          <button className="bg-[#5d5fef] cursor-pointer hover:bg-[#4c4fd4] text-white font-semibold text-lg w-full py-3 rounded-lg transition">
             Qoşul • {price} AZN / hər ay
           </button>
         </div>
