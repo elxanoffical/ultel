@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './components/hero'
 import Xidmetler from './components/xidmetler'
 import NewsSection from './components/newSection'
+import ContactSection from './components/contact'
 
 export default function HomePage() {
   return (
@@ -9,6 +10,7 @@ export default function HomePage() {
       <Hero/>
       <Xidmetler/>
       <NewsSection/>
+      <ContactSection/>
     </div>
   )
 }
